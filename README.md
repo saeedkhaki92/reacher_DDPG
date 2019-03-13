@@ -7,13 +7,13 @@ This code is for the Udacity Deep Reinforcement Learning Course' second projcet.
 
 This project uses the reacher environment from Unity environment provided by Udacity team.
 
-- State space is continous with size of 33.
+- State space is continous with size of `33`.
 
-- Action space is continous with size of 4, each in the interval of [-1,1].
+- Action space is continous with size of `4`, each in the interval of `[-1,1]`.
 
-- The environment gives a rewards of between [0, 1] for reacher that correctly position the hand. 
+- The environment gives a rewards of between `[0, 1]` for reacher that correctly position the hand. 
 
-The environmnet is considered to be solved if the average score is above '30.0' over last 100 episodes.
+The environmnet is considered to be solved if the average score is above `30.0` over last 100 episodes.
 
 
 
