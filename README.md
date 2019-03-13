@@ -17,7 +17,7 @@ The environmnet is considered to be solved if the average score is above `30.0` 
 
 ## Getting Started
 
-- Clone the <a href="https://github.com/udacity/deep-reinforcement-learning/blob/master/p1_navigation/README.md/" target="_blank">udacity deep reinforcement learning repository</a>
+- Clone the <a href="https://github.com/udacity/deep-reinforcement-learning" target="_blank">udacity deep reinforcement learning repository</a>
 
 
 
