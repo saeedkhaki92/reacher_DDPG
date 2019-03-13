@@ -15,6 +15,9 @@ This project uses the reacher environment from Unity environment provided by Uda
 
 The environmnet is considered to be solved if the average score is above `30.0` over last 100 episodes.
 
+![Alt Text](https://raw.githubusercontent.com/Unity-Technologies/ml-agents/master/docs/images/reacher.png)
+
+
 ## Getting Started
 
 - Clone the <a href="https://github.com/udacity/deep-reinforcement-learning" target="_blank">udacity deep reinforcement learning repository</a>
