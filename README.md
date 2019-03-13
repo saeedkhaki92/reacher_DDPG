@@ -19,6 +19,8 @@ The environmnet is considered to be solved if the average score is above `30.0` 
 
 - Clone the <a href="https://github.com/udacity/deep-reinforcement-learning" target="_blank">udacity deep reinforcement learning repository</a>
 
+- Follow instructions there to install the depndencies.
+
 
 
 
