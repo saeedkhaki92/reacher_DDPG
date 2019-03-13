@@ -27,6 +27,20 @@ The environmnet is considered to be solved if the average score is above `30.0` 
 
 - Run the jupyter notebook.
 
+## Checkpoints
+
+The saves folder provides the trained weights for both actor and critic in Pytorch format.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
