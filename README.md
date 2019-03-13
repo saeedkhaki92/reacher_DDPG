@@ -22,6 +22,11 @@ The environmnet is considered to be solved if the average score is above `30.0` 
 - Follow instructions there to install the depndencies.
 
 
+- <a href="https://github.com/udacity/deep-reinforcement-learning/tree/master/p2_continuous-control" target="_blank">udacity Download</a> the unity environment which matches your operating system 
+
+
+
+
 
 
 
