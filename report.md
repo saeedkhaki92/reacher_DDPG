@@ -33,5 +33,10 @@ The environment solved in 2,000 episodes and the following figure shows the aver
 
 One of the challenges in the projcet was to find the optimal network for both actor and the critic. I find two or there hidden layers with moderate number of neurons can solve the problem successfully. We also used batch normalization as recommended by the original DDGP paper. It can help with normalizing the input variables.
 
+To improve the performance of DDGP, we used another small buffer (Cache) to consider the most recent experience. It further improved the performance of the model. 
+
+Using too many neurons in the actor or critic do not help since it cause overfitting.
+
+
 
 
