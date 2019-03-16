@@ -30,6 +30,8 @@ The critic network had three fully-conncetd layers with respective 100, 100, and
 
 The environment solved in 2,000 episodes and the following figure shows the average score per episode.
 
+![Alt Text](https://github.com/saeedkhaki92/reacher_DDPG/blob/master/result.png?raw=true)
+
 ## Discussion
 
 One of the challenges in the projcet was to find the optimal network for both actor and the critic. I find two or there hidden layers with moderate number of neurons can solve the problem successfully. We also used batch normalization as recommended by the original DDGP paper. It can help with normalizing the input variables.
