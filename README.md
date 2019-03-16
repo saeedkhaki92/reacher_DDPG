@@ -34,6 +34,12 @@ The environmnet is considered to be solved if the average score is above `30.0` 
 
 The saves folder provides the trained weights for both actor and critic in Pytorch format.
 
+## References and Credit
+
+The most of the codes were originally provided by Udacity team and other online open source websites. 
+
+
+
 
 
 
