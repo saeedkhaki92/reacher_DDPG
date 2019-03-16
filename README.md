@@ -13,7 +13,7 @@ This project uses the reacher environment from Unity environment provided by Uda
 
 - The environment gives a rewards of between `[0, 1]` for reacher that correctly position the hand. 
 
-The environmnet is considered to be solved if the average score is above `30.0` over last 100 episodes.
+The environmnet is considered to be solved if the average score is above `30.0` over last `100` episodes.
 
 ![Alt Text](https://raw.githubusercontent.com/Unity-Technologies/ml-agents/master/docs/images/reacher.png)
 
