@@ -12,6 +12,12 @@ The actor network had three fully-conncetd layers. We used Batch Normalization i
 
 The critic network had three fully-conncetd layers with respective 100, 100, and 1 neurons. The Relu activation function was used in all neurons except output layer which did not have activation function.
 
+## Deep	Deterministic	Policy Gradient	(DDPG) Algorithm
+
+
+
+
+
 ## DDPG Hyperparameter
 
 - Batch size of 256
