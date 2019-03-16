@@ -27,7 +27,7 @@ The critic network had three fully-conncetd layers with respective 100, 100, and
 ## Results
 
 
-The environment solved in 2000 episodes and the following figure shows the average score per episode.
+The environment solved in 2,000 episodes and the following figure shows the average score per episode.
 
 
 
