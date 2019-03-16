@@ -28,10 +28,10 @@ The critic is trained by minimizing the mean square error (MSE) between target Q
 - TAU of 0.001, which is the parameter for the soft update between target and local networks for both actor and critic.
 - learning rate of 0.001 used to train the parameters of local networks for both actor and critic.
 - weight decay of 0.0004, which was used for regularization.
-- timesteps between updates was 20,
+- timesteps between updates was 20.
 - starting epsilon of 1.0, which used for exploration of action and state spaces.
-- fc1 number of neurons 100
-- fc2 number of neurons 100
+- fc1 number of neurons 100.
+- fc2 number of neurons 100.
 - Buffer size of 8e5, which holds past experinces like DQN approach. 
 
 ## Results
