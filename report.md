@@ -24,6 +24,12 @@ The critic network had three fully-conncetd layers with respective 100, 100, and
 - fc1 number of neurons 100
 - fc2 number of neurons 100
 
+## Results
+
+
+The environment solved in 2000 episodes and the following figure shows the average score per episode.
+
+
 
 
 
