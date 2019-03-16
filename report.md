@@ -28,7 +28,7 @@ The critic network had three fully-conncetd layers with respective 100, 100, and
 ## Results
 
 
-The environment solved in 2,000 episodes and the following figure shows the average score per episode.
+The environment solved in 146 episodes and the following figure shows the average score per episode.
 
 ![Alt Text](https://github.com/saeedkhaki92/reacher_DDPG/blob/master/result.png?raw=true)
 
