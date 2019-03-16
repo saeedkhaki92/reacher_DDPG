@@ -14,7 +14,7 @@ The critic network had three fully-conncetd layers with respective 100, 100, and
 
 ## DDPG Hyperparameter
 
-- Batch size of 200
+- Batch size of 256
 - GAMMA of 0.99
 - TAU of 0.001
 - learning rate of 0.001
@@ -23,6 +23,7 @@ The critic network had three fully-conncetd layers with respective 100, 100, and
 - starting epsilon 1.0
 - fc1 number of neurons 100
 - fc2 number of neurons 100
+- Buffer size of 8e5
 
 ## Results
 
