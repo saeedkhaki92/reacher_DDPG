@@ -14,31 +14,25 @@ The critic network had three fully-conncetd layers with respective 100, 100, and
 
 ## Deep	Deterministic	Policy Gradient	(DDPG) Algorithm
 
-DDPG is categorized as an Actor-Critic Approach in reinforcement learning litrature. It has two networks namely, actor and critic. Actor specifies \[\sigma\] action `a` given the current state of	the	environments.
+DDPG is categorized as an Actor-Critic Approach in reinforcement learning litrature. It has two networks namely, actor and critic. Actor specifies action `a` given the current state of	the	environments. Critic value function	specifies	a	signal to criticize	the	actions	made by	the	actor.
 
+Since DDPG uses deterministic	policy	gradient and it	might	not	explore	the	full state	and	action space, DDPG adds random noise to the actions to overcome this problem.
 
-
-
-
-
-
-
-
-
+The critic is trained by minimizing the mean square error (MSE) between target Q values and local Q values like DQN method. The actor is trained by maximizing reward over a minibatch of samples. 
 
 
 ## DDPG Hyperparameter
 
-- Batch size of 256
-- GAMMA of 0.99
-- TAU of 0.001
-- learning rate of 0.001
-- weight decay of 0.0004
-- times between updates 100
-- starting epsilon 1.0
+- Batch size of 256 used to trained the actor and critic.
+- GAMMA of 0.99, which is the dicount factor for the rewards.
+- TAU of 0.001, is the parameter for the soft update between target and local networks for both actor and critic.
+- learning rate of 0.001 used to train the parameters of local networks of actor and critic.
+- weight decay of 0.0004, which is used for regularization.
+- timesteps between updates 20,
+- starting epsilon 1.0, which used for exploration of action and state spaces.
 - fc1 number of neurons 100
 - fc2 number of neurons 100
-- Buffer size of 8e5
+- Buffer size of 8e5, which includes past experinces like DQN approach. 
 
 ## Results
 
