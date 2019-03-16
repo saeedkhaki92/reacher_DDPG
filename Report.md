@@ -14,6 +14,15 @@ The critic network had three fully-conncetd layers with respective 100, 100, and
 
 ## Deep	Deterministic	Policy Gradient	(DDPG) Algorithm
 
+DDPG is categorized as an Actor-Critic Approach in reinforcement learning litrature. It has two networks namely, actor and critic. Actor specifies \[\sigma\] action `a` given the current state of	the	environments.
+
+
+
+
+
+
+
+
 
 
 
