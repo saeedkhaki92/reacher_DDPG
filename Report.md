@@ -33,6 +33,7 @@ The critic is trained by minimizing the mean square error (MSE) between target Q
 - fc1 number of neurons 100.
 - fc2 number of neurons 100.
 - Buffer size of 8e5, which holds past experinces like DQN approach. 
+- Ornstein-Uhlenbeck noise for exploration
 
 ## Results
 
